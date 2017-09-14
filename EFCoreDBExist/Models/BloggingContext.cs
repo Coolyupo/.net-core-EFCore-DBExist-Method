@@ -11,6 +11,7 @@ namespace EFCoreDBExist.Models
         { }
         public virtual DbSet<Blog> Blog { get; set; }
         public virtual DbSet<Post> Post { get; set; }
+        public virtual DbSet<JACK> JACK { get; set; }
 
 //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 //        {

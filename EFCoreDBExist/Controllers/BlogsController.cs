@@ -15,6 +15,7 @@ namespace EFCoreDBExist.Controllers
 
         public IActionResult Index()
         {
+            var test = _context.JACK.ToList();
             return View(_context.Blog.ToList());
         }
 
